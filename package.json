@@ -15,7 +15,9 @@
     "lint:hbs": "ember-template-lint .",
     "lint:js": "eslint .",
     "start": "ember serve",
-    "test": "ember test"
+    "test": "npm run test:node && npm run test:ember",
+    "test:ember": "ember test",
+    "test:node": "mocha node-tests"
   },
   "devDependencies": {
     "@ember/jquery": "^0.5.2",
@@ -27,6 +29,8 @@
     "ember-cli-babel": "^7.1.2",
     "ember-cli-dependency-checker": "^3.0.0",
     "ember-cli-eslint": "^4.2.3",
+    "ember-cli-fastboot": "^2.0.4",
+    "ember-cli-google-fonts": "^2.16.2",
     "ember-cli-htmlbars": "^3.0.0",
     "ember-cli-htmlbars-inline-precompile": "^1.0.3",
     "ember-cli-inject-live-reload": "^1.8.2",
@@ -42,7 +46,13 @@
     "ember-source": "~3.7.0",
     "ember-welcome-page": "^3.2.0",
     "eslint-plugin-ember": "^5.2.0",
+    "guidemaker": "^1.0.2",
+    "guidemaker-default-template": "^0.5.1",
+    "guidemaker-link-checker": "^1.0.0",
+    "guidemaker-toc-checker": "^1.0.0",
     "loader.js": "^4.7.0",
+    "mocha": "^5.2.0",
+    "prember": "^1.0.2",
     "qunit-dom": "^0.8.0"
   },
   "engines": {
