@@ -47,7 +47,7 @@
     "ember-welcome-page": "^3.2.0",
     "eslint-plugin-ember": "^5.2.0",
     "guidemaker": "^1.0.2",
-    "guidemaker-default-template": "^0.5.1",
+    "subsetcss-template": "file:lib/subsetcss-template",
     "guidemaker-link-checker": "^1.0.0",
     "guidemaker-toc-checker": "^1.0.0",
     "loader.js": "^4.7.0",
@@ -57,5 +57,10 @@
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
+  },
+  "ember-addon": {
+    "paths": [
+      "lib/subsetcss-template"
+    ]
   }
 }
