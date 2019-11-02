@@ -1,21 +1,23 @@
 .header {
-    background: $white;
-    nav {
+  background: $white;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    a.logo {
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      a.logo {
-        display: flex;
-        align-items: center;
-        margin: .3em 0;
-        text-decoration: none;
-        font-size: 1.8em;
-        font-family: 'Roboto', sans-serif;
-        color: $primary;
+      margin: .3em 0;
+      text-decoration: none;
+      font-size: 1.8em;
+      font-family: 'Roboto', sans-serif;
+      color: $primary;
 
-        img {
-          height: 50px;
-        }
+      img {
+        height: 50px;
       }
     }
+  }
 }

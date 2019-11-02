@@ -118,12 +118,12 @@ li.toc-level-0 {
 }
 
 li.toc-level-0 > div > a {
-  font-weight: bold;
+  font-weight: 500;
   margin: 0.33em 0;
 }
 
 ol.toc-level-1 {
-  border-left: 1px solid #74B0CE;
+  border-left: 1px solid $primary-light;
   font-size: 0.9rem;
 }
 
@@ -138,7 +138,7 @@ ol.toc-level-1 li {
 
 ol.toc-level-1 li.selected,
 ol.toc-level-1 li:hover {
-  border-left-color: #74B0CE;
+  border-left-color: $primary-light;
 }
 
 ol.toc-level-1 li:hover {
