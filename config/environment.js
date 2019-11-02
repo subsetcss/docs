@@ -29,7 +29,8 @@ module.exports = function(environment) {
     },
 
     guidemaker: {
-      title: 'Guidemaker Docs'
+      title: 'SubsetCSS',
+      logo: '/images/logo.png'
     }
   };
 

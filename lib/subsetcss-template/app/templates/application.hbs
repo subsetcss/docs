@@ -4,8 +4,9 @@
   <nav role="navigation" aria-label="main" class="container">
     <a href="/" class="logo">
       {{#if guidemaker.logo}}
-        <img src={{guidemaker.logo}}>
-      {{else}}
+        <img src={{guidemaker.logo}} alt="Logo">
+      {{/if}}
+      {{#if guidemaker.title}}
         <span>
           {{guidemaker.title}}
         </span>
