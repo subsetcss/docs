@@ -30,7 +30,8 @@ module.exports = function(environment) {
 
     guidemaker: {
       title: 'SubsetCSS',
-      logo: '/images/logo.png'
+      logo: '/images/logo.png',
+      sourceRepo: 'https://github.com/subsetcss/docs'
     }
   };
 
