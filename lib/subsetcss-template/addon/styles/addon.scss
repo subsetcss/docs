@@ -1257,6 +1257,11 @@ article {
   &:last-child {
     margin-right: 0;
   }
+
+  blockquote {
+    background-color: #eee;
+    padding: 0.5rem 2rem;
+  }
 }
 
 article .edit-page {
