@@ -1,14 +1,11 @@
 - title: 'What Is SubsetCSS?'
   url: 'index'
-  skip_toc: true
   pages:
     - title: 'SubsetCSS'
       url: ''
 
-- title: 'Getting Started'
-  url: 'getting-started'
+- title: 'Linter'
+  url: 'linter'
   pages:
-    - title: 'Introduction'
+    - title: 'Getting Started'
       url: 'index'
-    - title: 'Editing'
-      url: 'editing'
