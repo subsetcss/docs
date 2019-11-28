@@ -21,3 +21,10 @@ npm install --save-dev subsetcss stylelint
 
 > Note: I'm using stylelint as the base system to get CSS linting working. Building on the shoulders of giants and such 😁
 
+## Setup
+
+Before we can start linting, we'll need to setup
+Stylelint. For a full guide on doing that, have a look at the official docs 
+at https://stylelint.io/#getting-started 
+
+
