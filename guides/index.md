@@ -1,6 +1,11 @@
 SubsetCSS is all about limiting yourself and/or your team to a subset of CSS values
 to provide consistency across all your creations 🎉
 
+CSS can get unweildy sometimes, as new features are added and new people join the team.
+It's hard to be consistent, and that's why utility/functional CSS libraries like Tailwind are growing in popularity.
+SubsetCSS helps aleviate this problem in a different way by enforcing your CSS to a predefined amount of values, 
+keeping everyone on the same page as a project evolves.
+
 ## Where Do I Start?
 
 > First of all, SubsetCSS is **alpha** software, and while I'd love for everyone to use it, it might not
