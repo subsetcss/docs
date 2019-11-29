@@ -27,4 +27,7 @@ Before we can start linting, we'll need to setup
 Stylelint. For a full guide on doing that, have a look at the official docs 
 at https://stylelint.io/#getting-started 
 
-
+No matter which approach you take to setup Stylelint,
+I recommend using the `stylelint.config.js` config
+file, because it gives SubsetCSS ultimate flexibility
+by allowing us to require our config directly.
