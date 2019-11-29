@@ -1,5 +1,3 @@
-# Getting Started - Linter
-
 One of the goals of this project is to enforce consistent styles across a project or team,
 and the easiest way to accomplish that is by setting up a linter to handle cases that don't match the predefined rules.
 
@@ -31,3 +29,16 @@ No matter which approach you take to setup Stylelint,
 I recommend using the `stylelint.config.js` config
 file, because it gives SubsetCSS ultimate flexibility
 by allowing us to require our config directly.
+
+Create a stylelint config file `stylelint.config.js` in the top directory of your project with the following content:
+
+```js
+let config = require('./.subsetcss');
+
+module.exports = {
+  plugins: ['subsetcss'],
+  rules: {
+    'subsetcss/config': [true, config],
+  }
+};
+```
