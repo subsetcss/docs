@@ -7,14 +7,14 @@ can literally start with one CSS prop and get it unified across your whole proje
 
 ## Assumptions
 
-In these guides we assume that you have setup `nodejs` and have a grasp of `npm`.
+In these guides we assume that you have setup `nodejs` and have a grasp of `yarn`.
 
 ## Installation
 
 To get started install the following packages:
 
 ```sh
-npm install --save-dev subsetcss stylelint
+yarn add -D subsetcss stylelint
 ```
 
 > Note: I'm using stylelint as the base system to get CSS linting working. Building on the shoulders of giants and such 😁
@@ -42,3 +42,34 @@ module.exports = {
   }
 };
 ```
+
+## Config
+
+Now that we have stylelint setup, we can add out `.subsetcss.js` file that we pass to stylelint.
+
+```js
+module.exports = {
+  'subsets': {
+    'font-size': [
+      '0.75rem',
+      '0.875rem',
+      '1rem',
+      '1.125rem',
+      '1.25rem',
+      '1.5rem',
+      '1.875rem',
+      '2.25rem',
+      '3rem',
+      '4rem',
+    ]
+  }
+};
+```
+
+This gives us a starting point and will limit `font-size` to the above values.
+
+## Run Linter
+
+You can now run stylelint using `yarn` with a command like `yarn stylelint "src/styles/*.css"`.
+You might want to add a npm script to your `package.json` to make style linting a repeatable script you run
+in your project.
